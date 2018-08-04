@@ -1,0 +1,46 @@
+.outline {
+	border: 2px solid grey;
+}
+
+.container {
+	width: 100%;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+/* gives spacing between all columns except first */
+div[class*='col']:not(:first-child) {
+	margin-left: 10px;
+}
+
+/* gives spacing between all rows except first*/
+div[class*='row']:not(:first-child) {
+	margin-top: 15px;
+}
+@media (min-width: 576px) {
+	.container {
+		max-width: 540px;
+	}
+}
+
+@media (min-width: 768px) {
+	.container {
+		max-width: 720px;
+	}
+}
+@media (min-width: 992px) {
+	.container {
+		max-width: 960px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.container {
+		max-width: 1140px;
+	}
+}
+@media (min-width: 1500px) {
+	.container {
+		max-width: 1460px;
+	}
+}
