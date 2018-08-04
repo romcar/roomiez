@@ -1,33 +1,39 @@
 {
-  "name": "roomiez",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/romcar/roomiez.git",
-  "author": "romcar <rommel.carrasquilla@gmail.com>",
-  "license": "MIT",
-  "scripts": {
-    "lint": "./node_modules/.bin/eslint . --quiet ",
-    "lint:fix": "./node_modules/.bin/eslint --fix . --quiet "
-  },
-  "dependencies": {
-    "babel-core": "^6.26.3",
-    "babel-loader": "^7.1.5",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1",
-    "react": "^16.4.2",
-    "react-dom": "^16.4.2",
-    "webpack": "^4.16.4",
-    "webpack-cli": "^3.1.0"
-  },
-  "devDependencies": {
-    "eslint": "^4.19.1",
-    "eslint-config-airbnb": "^17.0.0",
-    "eslint-config-prettier": "^2.9.0",
-    "eslint-plugin-import": "^2.13.0",
-    "eslint-plugin-jsx-a11y": "^6.1.1",
-    "eslint-plugin-react": "^7.10.0",
-    "eslint-plugin-prettier": "^2.6.2",
-    "git": "^0.1.0",
-    "prettier": "^1.14.0"
-  }
+	"name": "roomiez",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "https://github.com/romcar/roomiez.git",
+	"author": "romcar <rommel.carrasquilla@gmail.com>",
+	"license": "MIT",
+	"scripts": {
+		"build": "./node_modules/.bin/webpack",
+		"build:watch": "./node_modules/.bin/webpack -w",
+		"build:production": "./node_modules/.bin/webpack -p",
+		"build:dev": "./node_modules/.bin/webpack-dev-server -d",
+		"lint": "./node_modules/.bin/eslint . --quiet ",
+		"lint:fix": "./node_modules/.bin/eslint --fix . --quiet "
+	},
+	"dependencies": {
+		"react": "^16.4.2",
+		"react-dom": "^16.4.2",
+		"webpack": "^4.16.4",
+		"webpack-cli": "^3.1.0",
+		"webpack-dev-server": "^3.1.5"
+	},
+	"devDependencies": {
+		"babel-core": "^6.26.3",
+		"babel-loader": "^7.1.5",
+		"babel-preset-env": "^1.7.0",
+		"babel-preset-react": "^6.24.1",
+		"eslint-loader": "^2.1.0",
+		"eslint": "^4.19.1",
+		"eslint-config-airbnb": "^17.0.0",
+		"eslint-config-prettier": "^2.9.0",
+		"eslint-plugin-import": "^2.13.0",
+		"eslint-plugin-jsx-a11y": "^6.1.1",
+		"eslint-plugin-react": "^7.10.0",
+		"eslint-plugin-prettier": "^2.6.2",
+		"git": "^0.1.0",
+		"prettier": "^1.14.0"
+	}
 }
