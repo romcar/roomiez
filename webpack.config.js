@@ -10,7 +10,7 @@ module.exports = {
 	devtool: 'cheap-eval-source-map', // there are different ones that do different things
 	output: {
 		path: path.join(__dirname, 'public'),
-		publicPath: path.join(__dirname, 'public/'),
+		publicPath: path.join(__dirname, 'public'),
 		filename: 'bundle.js'
 	},
 	resolve: {
