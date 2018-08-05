@@ -5,17 +5,22 @@ import './App.css';
 
 import Home from '../Home/Home';
 import Rooms from '../Rooms/Rooms';
+import NavBar from '../../components/NavBar/NavBar';
+import Messenger from '../Messenger/Messenger';
 
 const App = () => (
 	<div>
 		<Container>
 			<Row>
-				<Col className="outline">Nav Bar</Col>
+				<Col className="outline">
+					<NavBar />
+				</Col>
 			</Row>
 		</Container>
 		<Switch>
 			<Route exact path="/" component={Home} />
 			<Route path="/rooms" component={Rooms} />
+			<Route path="/messenger" component={Messenger} />
 		</Switch>
 	</div>
 );
