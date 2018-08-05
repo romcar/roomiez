@@ -1,16 +1,17 @@
 const path = require('path'); // Meant for node have to use const
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
 	context: __dirname,
 	entry: './src/index.jsx', // usually the front door to the project.
 	devServer: {
-		publicPath: '/public/' // name of the path on the server
-		// historyApiFallback: true
+		publicPath: '/', // name of the path on the server
+		historyApiFallback: true
 	},
 	devtool: 'cheap-eval-source-map', // there are different ones that do different things
 	output: {
 		path: path.join(__dirname, 'public'),
-		publicPath: path.join(__dirname, 'public'),
+		// publicPath: path.join(__dirname, 'public'),
 		filename: 'bundle.js'
 	},
 	resolve: {
@@ -45,5 +46,10 @@ module.exports = {
 				loader: 'style-loader!css-loader'
 			}
 		]
-	}
+	},
+	plugins: [
+		new HtmlWebpackPlugin({
+			template: './public/index.html'
+		})
+	]
 };
