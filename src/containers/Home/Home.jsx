@@ -2,13 +2,17 @@ import React from 'react';
 import { Row, Col, Container } from 'reactstrap';
 import './Home.css';
 
+import UserCard from '../../components/UserCard/UserCard';
+
 const Home = () => (
 	<Container>
 		<Row className="center">
 			<Col xl={3} md={3} sm={3} xs={false}>
 				{/* Side panel */}
 				<Container>
-					<Row className="outline">User Card</Row>
+					<Row className="outline">
+						<UserCard />
+					</Row>
 					<Row className="outline">Notification System</Row>
 				</Container>
 			</Col>
