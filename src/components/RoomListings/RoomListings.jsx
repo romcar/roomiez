@@ -1,7 +1,6 @@
-import React from 'react';
+// import React from 'react';
 
-const RoomListings = (props) => {
-  return props.roomListings.map((roomListing) => {
-    console.log(roomListing)
-  });
-}
+const RoomListings = ({roomListings}) =>
+  roomListings.map(roomListing => console.log(roomListing));
+
+export default RoomListings;
