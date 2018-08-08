@@ -10,6 +10,7 @@ module.exports = {
   },
   recentListings: [
     {
+      id: 765,
       title: 'One bedroom available',
       images: [
         'http://placekitten.com/500/500',
@@ -75,6 +76,7 @@ module.exports = {
       },
     },
     {
+      id: 766,
       title: 'Looking for a quiet roommate',
       images: [
         'http://placekitten.com/500/500',
@@ -114,6 +116,7 @@ module.exports = {
       },
     },
     {
+      id: 767,
       title: 'We have room for somone or a couple',
       images: [
         'http://placekitten.com/500/500',
@@ -179,6 +182,7 @@ module.exports = {
       },
     },
     {
+      id: 768,
       title:
         'All female house looking for another lady to join our little family',
       images: [
