@@ -1,9 +1,6 @@
-.profile-pic {
+.profilePic {
 	margin: 15px 0 15px 25px;
 	border-radius: 75px;
 	width: 115px;
 	border: 5px solid #ff8484; /* pink outline */
-}
-
-.user-name {
 }
