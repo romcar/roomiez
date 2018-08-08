@@ -1,6 +1,16 @@
 {
-	"extends": ["airbnb", "prettier", "prettier/react"],
-	"plugins": ["prettier"],
+	"extends": [
+		"airbnb",
+		"prettier",
+		"prettier/react"
+	],
+	"plugins": [
+		"prettier"
+	],
+	"prettier/prettier": [
+		"error",
+		"fb"
+	],
 	"parserOptions": {
 		"ecmaVersion": 2018,
 		"sourceType": "module",
