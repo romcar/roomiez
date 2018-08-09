@@ -1,3 +1,10 @@
 .roomListingsButton {
   display: inline-block;
+  font-size: 30px;
+  align-content: center;
+  margin: 50px 15px;
+}
+
+.tiles {
+  margin: auto;
 }
