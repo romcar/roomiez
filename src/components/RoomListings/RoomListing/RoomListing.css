@@ -1,0 +1,16 @@
+.roomListingImage {
+  width: 115px;
+  height: auto;
+}
+
+.roomListing {
+  width: 130px;
+  display: inline-block;
+  padding: 5px;
+  border: 1px solid grey;
+}
+
+.roomListingTitle {
+  overflow: hidden;
+  height: 25px;
+}
