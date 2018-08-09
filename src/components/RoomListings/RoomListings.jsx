@@ -1,7 +1,7 @@
 /* eslint no-debugger:0 */
 import React, {Component} from 'react';
 import sizeMe from 'react-sizeme';
-import {Container, Row} from 'reactstrap';
+// import {Container, Row} from 'reactstrap';
 import './RoomListings.css';
 /*
 Components
@@ -33,6 +33,7 @@ class RoomListings extends Component {
   setListingsPerPage() {
     const currentNumber = this.listingsPerPage;
     const {size} = this.props;
+    console.log(size);
     if (size.width > 350 && size.width <= 500) {
       this.listingsPerPage = 2;
     } else if (size.width > 500 && size.width <= 679) {
@@ -96,17 +97,15 @@ class RoomListings extends Component {
     );
     console.log(this.listingsPerPage);
     return (
-      <Container className="roomListings">
-        <Row>
-          <div className="roomListingsButton" onClick={this.prevPage}>
-            {'<'}
-          </div>
-          <div className="tiles">{this.renderListings(listings)}</div>
-          <div className="roomListingsButton" onClick={this.nextPage}>
-            {'>'}
-          </div>
-        </Row>
-      </Container>
+      <div className="roomListings">
+        <div className="roomListingsButtonPrev" onClick={this.prevPage}>
+          {'<'}
+        </div>
+        {this.renderListings(listings)}
+        <div className="roomListingsButtonNext" onClick={this.nextPage}>
+          {'>'}
+        </div>
+      </div>
     );
   }
 }

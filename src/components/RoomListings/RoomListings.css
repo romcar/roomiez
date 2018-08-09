@@ -1,10 +1,24 @@
-.roomListingsButton {
+
+.roomListings {
+  display: flex;
+  width: 95%;
+  margin:auto;
+  flex-flow: row nowrap;
+  justify-content: start;
+  padding: 10px, 10px;
+}
+
+.roomListingsButtonPrev {
   display: inline-block;
   font-size: 30px;
   align-content: center;
-  margin: 50px 15px;
+  vertical-align: center;
+  margin: auto 2%;
 }
 
-.tiles {
-  margin: auto;
+.roomListingsButtonNext {
+  display: inline-block;
+  font-size: 30px;
+  align-content: center;
+  margin: auto 2%;
 }

@@ -1,6 +1,7 @@
 .roomListingImage {
   width: 115px;
   height: auto;
+  border-radius: 10px;
 }
 
 .roomListing {
@@ -11,7 +12,32 @@
   border: 1px solid grey;
 }
 
+
+
+/*
+Scrolling text
+*/
 .roomListingTitle {
   overflow: hidden;
   height: 25px;
+  position: relative;
+}
+
+.fullTitle {
+  position: relative;
+  display: inline-block;
+
+}
+
+.roomListingTitle .fullTitle {
+  visibility: hidden;
+  color: white;
+  text-align: center;
+  background-color: black;
+  padding: 5px;
+  border-radius: 6px;
+}
+
+.fullTitle:hover {
+  visibility: visible;
 }

@@ -11,7 +11,7 @@
 
 /* gives spacing between all columns except first */
 div[class*='col']:not(:first-child) {
-	margin-left: 10px;
+	/* margin-left: 10px; */
 }
 
 /* gives spacing between all rows except first*/
