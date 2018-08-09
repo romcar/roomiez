@@ -11,6 +11,11 @@ module.exports = {
   recentListings: [
     {
       id: 765,
+      tags: [
+        {id: 12, tag: 'Pets Allowed'},
+        {id: 13, tag: 'Prefer Men'},
+        {id: 14, tag: '420 Friendly'},
+      ],
       title: 'One bedroom available',
       images: [
         'http://placekitten.com/500/500',
@@ -77,6 +82,11 @@ module.exports = {
     },
     {
       id: 766,
+      tags: [
+        {id: 15, tag: 'Dogs Allowed'},
+        {id: 13, tag: 'Anyone can apply'},
+        {id: 17, tag: 'Night Owls'},
+      ],
       title: 'Looking for a quiet roommate',
       images: [
         'http://placekitten.com/500/500',
@@ -117,6 +127,11 @@ module.exports = {
     },
     {
       id: 767,
+      tags: [
+        {id: 12, tag: 'Pets Allowed'},
+        {id: 13, tag: 'Prefer Men'},
+        {id: 14, tag: '420 Friendly'},
+      ],
       title: 'We have room for somone or a couple',
       images: [
         'http://placekitten.com/500/500',
@@ -183,6 +198,11 @@ module.exports = {
     },
     {
       id: 768,
+      tags: [
+        {id: 12, tag: 'Pets Allowed'},
+        {id: 13, tag: 'Prefer Men'},
+        {id: 14, tag: '420 Friendly'},
+      ],
       title:
         'All female house looking for another lady to join our little family',
       images: [
@@ -250,6 +270,11 @@ module.exports = {
     },
     {
       id: 769,
+      tags: [
+        {id: 12, tag: 'Pets Allowed'},
+        {id: 13, tag: 'Prefer Men'},
+        {id: 14, tag: '420 Friendly'},
+      ],
       title:
         'All female house looking for another lady to join our little family',
       images: [
@@ -317,6 +342,11 @@ module.exports = {
     },
     {
       id: 770,
+      tags: [
+        {id: 12, tag: 'Pets Allowed'},
+        {id: 13, tag: 'Prefer Men'},
+        {id: 14, tag: '420 Friendly'},
+      ],
       title:
         'All female house looking for another lady to join our little family',
       images: [
